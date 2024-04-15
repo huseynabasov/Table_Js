@@ -1,0 +1,57 @@
+body{
+    background-color: aqua;
+}
+
+table{
+    background-color: darkcyan;
+    width: 1200px;
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+ 
+th,td,table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    color: white;
+}
+th:first-child {
+    width: 4%;
+}
+th {
+    width: 24%;
+}
+button {
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+}
+input {
+    padding: 6px;
+    outline: none;
+}
+.addBtn { 
+    background-color: yellow;
+}
+.saveBtn {
+    background-color: green;
+    margin-right: 5px;
+    color: white;
+}
+.editBtn {
+    background-color: rgb(211, 214, 0);
+    margin-right: 5px;
+    color: white;
+}
+.cancelBtn {
+    background-color: red;
+    color: white;
+}
+
+*:disabled {
+    background-color: dimgrey;
+    color: linen;
+    opacity: 1;
+  }
+  
